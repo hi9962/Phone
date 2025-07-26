@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>拨打电话</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #07C160;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>点击下方按钮拨打电话</h2>
+    <a id="callBtn" href="tel:17354343480">立即拨打 17354343480</a>
+    <script>
+        // 自动点击拨号按钮（部分浏览器可能需要用户手动点击）
+        document.getElementById('callBtn').click();
+    </script>
+</body>
+</html>
